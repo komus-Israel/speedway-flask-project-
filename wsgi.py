@@ -1,7 +1,7 @@
 from api import create_app, db
 from api.model import Admins, Students
 
-app = create_app("staging")
+app = create_app("development")
 
 
 #   configure shell feature to query database from shell

@@ -4,7 +4,7 @@ from api.services.admin_services import admin_registration_service
 from api.services.extensions_services import api
 from flask_restx import  Resource, fields
 
-namespace = api.namespace('admin', 'Admin related endpoints')
+namespace = api.namespace('', 'Admin related endpoints')
 
 '''
     models
