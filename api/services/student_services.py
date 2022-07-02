@@ -1,6 +1,3 @@
-from pydoc import cli
-
-from grpc import StatusCode
 from api.model import  Students
 from http import client
 from flask import jsonify
