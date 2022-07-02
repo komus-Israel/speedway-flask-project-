@@ -25,7 +25,6 @@ def create_app(config_name):
 
     app.config.SWAGGER_SUPPORTED_SUBMIT_METHODS = []
     
-    app.config["JWT_SECRET_KEY"] = "3243r34fegvfg"
 
     '''
         @dev    register blueprints
